@@ -1,0 +1,146 @@
+/* ============================================
+   FC STUDIO — THEMES
+   4 random themes applied on page load
+   ============================================ */
+
+/* ---- THEME 1: NOIR ELECTRIC (dark + electric green) ---- */
+[data-theme="theme-1"] {
+  --bg: #0a0a0a;
+  --bg-2: #111111;
+  --bg-3: #1a1a1a;
+  --text: #f0f0f0;
+  --text-2: #999999;
+  --text-3: #555555;
+  --accent: #c6ff00;
+  --accent-2: #8fff00;
+  --accent-rgb: 198, 255, 0;
+  --border: rgba(255,255,255,0.08);
+  --border-accent: rgba(198,255,0,0.3);
+  --card-bg: #111111;
+  --card-bg-hover: #161616;
+  --featured-bg: #c6ff00;
+  --featured-text: #0a0a0a;
+  --nav-bg: rgba(10,10,10,0.85);
+  --shadow: 0 0 40px rgba(198,255,0,0.15);
+  --font-display: 'Unbounded', sans-serif;
+  --font-body: 'Chivo Mono', monospace;
+  --grid-color: rgba(198,255,0,0.04);
+  --noise-opacity: 0.04;
+  --decor-1: #c6ff00;
+  --decor-2: #1a1a1a;
+  --decor-3: #8fff00;
+  --ticker-bg: #c6ff00;
+  --ticker-text: #0a0a0a;
+  --btn-primary-bg: #c6ff00;
+  --btn-primary-text: #0a0a0a;
+  --gradient-hero: radial-gradient(ellipse 70% 50% at 70% 40%, rgba(198,255,0,0.07) 0%, transparent 70%);
+}
+
+/* ---- THEME 2: BONE & BURGUNDY (warm cream + deep red) ---- */
+/* Instrument Serif defaults to normal weight - logo stays roman */
+[data-theme="theme-2"] .logo-fc,
+[data-theme="theme-2"] .logo-studio,
+[data-theme="theme-2"] .stat-num,
+[data-theme="theme-2"] .stat-suffix,
+[data-theme="theme-2"] .stat-label,
+[data-theme="theme-2"] .price-num,
+[data-theme="theme-2"] .section-title,
+[data-theme="theme-2"] .hero-title { font-style: normal; }
+
+[data-theme="theme-2"] {
+  --bg: #f5f0e8;
+  --bg-2: #ede7d9;
+  --bg-3: #e5dece;
+  --text: #1a1209;
+  --text-2: #6b5c3e;
+  --text-3: #a89070;
+  --accent: #8b1a1a;
+  --accent-2: #c23232;
+  --accent-rgb: 139, 26, 26;
+  --border: rgba(26,18,9,0.12);
+  --border-accent: rgba(139,26,26,0.25);
+  --card-bg: #ede7d9;
+  --card-bg-hover: #e5dece;
+  --featured-bg: #8b1a1a;
+  --featured-text: #f5f0e8;
+  --nav-bg: rgba(245,240,232,0.9);
+  --shadow: 0 20px 60px rgba(139,26,26,0.12);
+  --font-display: 'Instrument Serif', serif;
+  --font-body: 'Cabinet Grotesk', sans-serif;
+  --grid-color: rgba(139,26,26,0.04);
+  --noise-opacity: 0.03;
+  --decor-1: #8b1a1a;
+  --decor-2: #ede7d9;
+  --decor-3: #c23232;
+  --ticker-bg: #1a1209;
+  --ticker-text: #f5f0e8;
+  --btn-primary-bg: #8b1a1a;
+  --btn-primary-text: #f5f0e8;
+  --gradient-hero: radial-gradient(ellipse 60% 50% at 60% 30%, rgba(139,26,26,0.08) 0%, transparent 70%);
+}
+
+/* ---- THEME 3: ARCTIC VOID (ultra-white + cobalt blue) ---- */
+[data-theme="theme-3"] {
+  --bg: #ffffff;
+  --bg-2: #f4f4f8;
+  --bg-3: #eaeaf0;
+  --text: #080812;
+  --text-2: #5c5c78;
+  --text-3: #aaaabc;
+  --accent: #0a3cff;
+  --accent-2: #3060ff;
+  --accent-rgb: 10, 60, 255;
+  --border: rgba(8,8,18,0.1);
+  --border-accent: rgba(10,60,255,0.2);
+  --card-bg: #f4f4f8;
+  --card-bg-hover: #eaeaf0;
+  --featured-bg: #0a3cff;
+  --featured-text: #ffffff;
+  --nav-bg: rgba(255,255,255,0.88);
+  --shadow: 0 20px 80px rgba(10,60,255,0.12);
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Cabinet Grotesk', sans-serif;
+  --grid-color: rgba(10,60,255,0.04);
+  --noise-opacity: 0.025;
+  --decor-1: #0a3cff;
+  --decor-2: #f4f4f8;
+  --decor-3: #3060ff;
+  --ticker-bg: #080812;
+  --ticker-text: #ffffff;
+  --btn-primary-bg: #0a3cff;
+  --btn-primary-text: #ffffff;
+  --gradient-hero: radial-gradient(ellipse 70% 60% at 65% 35%, rgba(10,60,255,0.06) 0%, transparent 70%);
+}
+
+/* ---- THEME 4: OBSIDIAN AMBER (dark + warm amber/gold) ---- */
+[data-theme="theme-4"] {
+  --bg: #0d0c09;
+  --bg-2: #151410;
+  --bg-3: #1e1c16;
+  --text: #f0ead8;
+  --text-2: #8a826a;
+  --text-3: #4a4438;
+  --accent: #f5a623;
+  --accent-2: #ffc054;
+  --accent-rgb: 245, 166, 35;
+  --border: rgba(240,234,216,0.08);
+  --border-accent: rgba(245,166,35,0.3);
+  --card-bg: #151410;
+  --card-bg-hover: #1e1c16;
+  --featured-bg: #f5a623;
+  --featured-text: #0d0c09;
+  --nav-bg: rgba(13,12,9,0.88);
+  --shadow: 0 0 60px rgba(245,166,35,0.12);
+  --font-display: 'Unbounded', sans-serif;
+  --font-body: 'Syne', sans-serif;
+  --grid-color: rgba(245,166,35,0.04);
+  --noise-opacity: 0.05;
+  --decor-1: #f5a623;
+  --decor-2: #1e1c16;
+  --decor-3: #ffc054;
+  --ticker-bg: #f5a623;
+  --ticker-text: #0d0c09;
+  --btn-primary-bg: #f5a623;
+  --btn-primary-text: #0d0c09;
+  --gradient-hero: radial-gradient(ellipse 70% 50% at 70% 40%, rgba(245,166,35,0.08) 0%, transparent 70%);
+}
