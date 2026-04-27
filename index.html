@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="theme-1">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FC Studio — Сайты и Telegram-боты</title>
+  <meta name="description" content="FC Studio — создаём красивые лендинги, многостраничные сайты и Telegram-боты под ключ. Быстро, стильно, без воды." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Unbounded:wght@300;400;700;900&family=Syne:wght@400;600;800&family=Cabinet+Grotesk:wght@300;400;500;700;800&family=Instrument+Serif:ital@0;1&family=Chivo+Mono:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+
+<!-- NOISE OVERLAY -->
+<div class="noise-overlay"></div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <span class="logo-fc">FC</span><span class="logo-studio">studio</span>
+    </a>
+    <div class="nav-links">
+      <a href="#services" class="nav-link" data-ru="Услуги" data-en="Services">Услуги</a>
+      <a href="#pricing" class="nav-link" data-ru="Тарифы" data-en="Pricing">Тарифы</a>
+      <a href="#bots" class="nav-link" data-ru="Боты" data-en="Bots">Боты</a>
+      <a href="#contact" class="nav-link" data-ru="Контакт" data-en="Contact">Контакт</a>
+    </div>
+    <div class="nav-controls">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-ru active">RU</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-en">EN</span>
+      </button>
+      <button class="theme-btn" id="themeBtn" aria-label="Change theme">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M9 1v16M1 9h16" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M3.5 3.5l11 11M14.5 3.5l-11 11" stroke="currentColor" stroke-width="1"/>
+        </svg>
+      </button>
+      <a href="https://t.me/freshcarrot1" class="nav-cta" target="_blank" rel="noopener">
+        <span data-ru="Написать" data-en="Contact">Написать</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-decor decor-1"></div>
+  <div class="hero-decor decor-2"></div>
+  <div class="hero-decor decor-3"></div>
+
+  <div class="hero-inner">
+    <div class="hero-badge reveal-up">
+      <span class="badge-dot"></span>
+      <span data-ru="Открыт для заказов" data-en="Open for orders">Открыт для заказов</span>
+    </div>
+
+    <h1 class="hero-title reveal-up" style="--delay:0.1s">
+      <span class="title-line" data-ru="Сайты, которые" data-en="Websites that">Сайты, которые</span>
+      <span class="title-line accent-word" data-ru="запоминаются" data-en="get remembered">запоминаются</span>
+    </h1>
+
+    <p class="hero-sub reveal-up" style="--delay:0.2s">
+      <span data-ru="Лендинги, многостраничные сайты и Telegram-боты. Статичные, быстрые, стильные — без лишней воды." data-en="Landing pages, multi-page websites and Telegram bots. Static, fast, stylish — no fluff.">Лендинги, многостраничные сайты и Telegram-боты. Статичные, быстрые, стильные — без лишней воды.</span>
+    </p>
+
+    <div class="hero-actions reveal-up" style="--delay:0.3s">
+      <a href="#pricing" class="btn btn-primary">
+        <span data-ru="Смотреть тарифы" data-en="See pricing">Смотреть тарифы</span>
+        <svg class="btn-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </a>
+      <a href="https://t.me/freshcarrot1" class="btn btn-ghost" target="_blank" rel="noopener">
+        <span data-ru="Написать в TG" data-en="Message in TG">Написать в TG</span>
+      </a>
+    </div>
+
+    <div class="hero-stats reveal-up" style="--delay:0.4s">
+      <div class="stat">
+        <div class="stat-row"><span class="stat-num" data-count="47">0</span></div>
+        <span class="stat-label" data-ru="проектов" data-en="projects">проектов</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-row"><span class="stat-num" data-count="5">0</span><span class="stat-suffix">+</span></div>
+        <span class="stat-label" data-ru="лет опыта" data-en="years exp.">лет опыта</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-row"><span class="stat-num">24h</span></div>
+        <span class="stat-label" data-ru="среднее ТЗ" data-en="avg brief">среднее ТЗ</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span data-ru="скролл" data-en="scroll">скролл</span>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>Лендинги</span><span class="tick-dot">✦</span>
+      <span>Многостраничные сайты</span><span class="tick-dot">✦</span>
+      <span>Telegram-боты</span><span class="tick-dot">✦</span>
+      <span>Статичные сайты</span><span class="tick-dot">✦</span>
+      <span>HTML/CSS/JS</span><span class="tick-dot">✦</span>
+      <span>Анимации</span><span class="tick-dot">✦</span>
+      <span>Landing pages</span><span class="tick-dot">✦</span>
+      <span>Multi-page sites</span><span class="tick-dot">✦</span>
+      <span>Telegram bots</span><span class="tick-dot">✦</span>
+      <span>Static websites</span><span class="tick-dot">✦</span>
+      <span>Animations</span><span class="tick-dot">✦</span>
+      <span>Лендинги</span><span class="tick-dot">✦</span>
+      <span>Многостраничные сайты</span><span class="tick-dot">✦</span>
+      <span>Telegram-боты</span><span class="tick-dot">✦</span>
+      <span>Статичные сайты</span><span class="tick-dot">✦</span>
+      <span>HTML/CSS/JS</span><span class="tick-dot">✦</span>
+      <span>Анимации</span><span class="tick-dot">✦</span>
+      <span>Landing pages</span><span class="tick-dot">✦</span>
+      <span>Multi-page sites</span><span class="tick-dot">✦</span>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="section-inner">
+    <div class="section-header reveal-up">
+      <span class="section-tag" data-ru="что я делаю" data-en="what i do">что я делаю</span>
+      <h2 class="section-title" data-ru="Мои услуги" data-en="My services">Мои услуги</h2>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal-up" style="--delay:0s">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <rect x="2" y="6" width="28" height="20" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M2 11h28" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="6" cy="8.5" r="1" fill="currentColor"/>
+            <circle cx="10" cy="8.5" r="1" fill="currentColor"/>
+            <circle cx="14" cy="8.5" r="1" fill="currentColor"/>
+            <path d="M8 17l4 4 8-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="service-title" data-ru="Лендинг" data-en="Landing page">Лендинг</h3>
+        <p class="service-desc" data-ru="Одностраничный продающий сайт с анимациями, секциями под ваш оффер и интеграцией с Telegram." data-en="Single-page selling website with animations, sections for your offer, and Telegram integration.">Одностраничный продающий сайт с анимациями, секциями под ваш оффер и интеграцией с Telegram.</p>
+        <ul class="service-features">
+          <li data-ru="Адаптив под все устройства" data-en="Responsive for all devices">Адаптив под все устройства</li>
+          <li data-ru="Scroll-анимации" data-en="Scroll animations">Scroll-анимации</li>
+          <li data-ru="SEO-разметка" data-en="SEO markup">SEO-разметка</li>
+          <li data-ru="Без серверной части" data-en="No backend required">Без серверной части</li>
+        </ul>
+      </div>
+
+      <div class="service-card featured reveal-up" style="--delay:0.1s">
+        <div class="service-badge" data-ru="популярное" data-en="popular">популярное</div>
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <rect x="2" y="4" width="12" height="24" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="18" y="4" width="12" height="11" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="18" y="19" width="12" height="9" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M5 9h6M5 13h6M5 17h6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="service-title" data-ru="Многостраничный сайт" data-en="Multi-page website">Многостраничный сайт</h3>
+        <p class="service-desc" data-ru="Полноценный сайт с несколькими страницами, навигацией, сложными анимационными переходами и уникальным дизайном." data-en="Full website with multiple pages, navigation, complex animated transitions, and unique design.">Полноценный сайт с несколькими страницами, навигацией, сложными анимационными переходами и уникальным дизайном.</p>
+        <ul class="service-features">
+          <li data-ru="Уникальный дизайн под брент" data-en="Unique brand design">Уникальный дизайн под бренд</li>
+          <li data-ru="Page transitions" data-en="Page transitions">Page transitions</li>
+          <li data-ru="Параллакс и эффекты" data-en="Parallax and effects">Параллакс и эффекты</li>
+          <li data-ru="До 10 страниц" data-en="Up to 10 pages">До 10 страниц</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal-up" style="--delay:0.2s">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path d="M28 6H4C2.9 6 2 6.9 2 8v16c0 1.1.9 2 2 2h10l4 4 4-4h6c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2z" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="10" cy="16" r="2" fill="currentColor"/>
+            <circle cx="16" cy="16" r="2" fill="currentColor"/>
+            <circle cx="22" cy="16" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="service-title" data-ru="Telegram-бот" data-en="Telegram bot">Telegram-бот</h3>
+        <p class="service-desc" data-ru="Бот под ваши задачи: продажи, поддержка, квизы, уведомления. Деплой и поддержка включены." data-en="Bot for your tasks: sales, support, quizzes, notifications. Deploy and support included.">Бот под ваши задачи: продажи, поддержка, квизы, уведомления. Деплой и поддержка включены.</p>
+        <ul class="service-features">
+          <li data-ru="Деплой и настройка" data-en="Deploy and setup">Деплой и настройка</li>
+          <li data-ru="Inline-кнопки и меню" data-en="Inline buttons and menus">Inline-кнопки и меню</li>
+          <li data-ru="База данных" data-en="Database">База данных</li>
+          <li data-ru="Поддержка после сдачи" data-en="Post-launch support">Поддержка после сдачи</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT I DON'T DO -->
+<section class="not-do">
+  <div class="section-inner">
+    <div class="not-do-inner reveal-up">
+      <div class="not-do-text">
+        <span class="section-tag" data-ru="честно" data-en="honest">честно</span>
+        <h2 data-ru="Что я не делаю" data-en="What I don't do">Что я не делаю</h2>
+        <p data-ru="Прозрачность важнее продажи — лучше сразу знать ограничения." data-en="Transparency over selling — better to know the limits upfront.">Прозрачность важнее продажи — лучше сразу знать ограничения.</p>
+      </div>
+      <div class="not-do-list">
+        <div class="not-item">
+          <span class="not-icon">✕</span>
+          <div>
+            <strong data-ru="Хостинг сайтов" data-en="Website hosting">Хостинг сайтов</strong>
+            <span data-ru="Сдаю готовый код — деплой на ваш хостинг сами или попросите помочь." data-en="I deliver ready code — deploy to your hosting yourself or ask for help.">Сдаю готовый код — деплой на ваш хостинг сами или попросите помочь.</span>
+          </div>
+        </div>
+        <div class="not-item">
+          <span class="not-icon">✕</span>
+          <div>
+            <strong data-ru="Домены и DNS" data-en="Domains and DNS">Домены и DNS</strong>
+            <span data-ru="Не регистрирую домены и не настраиваю DNS-записи для сайтов." data-en="I don't register domains or configure DNS records for websites.">Не регистрирую домены и не настраиваю DNS-записи для сайтов.</span>
+          </div>
+        </div>
+        <div class="not-item">
+          <span class="not-icon">✕</span>
+          <div>
+            <strong data-ru="Серверная часть сайтов" data-en="Website backend">Серверная часть сайтов</strong>
+            <span data-ru="Делаю только статичные сайты. Авторизация, CMS, API — не ко мне." data-en="I build only static websites. Auth, CMS, API — not my area.">Делаю только статичные сайты. Авторизация, CMS, API — не ко мне.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <div class="section-inner">
+    <div class="section-header reveal-up">
+      <span class="section-tag" data-ru="прозрачно" data-en="transparent">прозрачно</span>
+      <h2 class="section-title" data-ru="Тарифы на сайты" data-en="Website pricing">Тарифы на сайты</h2>
+      <p class="section-sub" data-ru="Выберите тариф — и вас перекинет в Telegram с готовым сообщением." data-en="Choose a plan — you'll be redirected to Telegram with a ready message.">Выберите тариф — и вас перекинет в Telegram с готовым сообщением.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- STARTER -->
+      <div class="price-card reveal-up" style="--delay:0s">
+        <div class="price-label" data-ru="Старт" data-en="Starter">Старт</div>
+        <div class="price-amount">
+          <span class="price-cur">₽</span>
+          <span class="price-num">4 900</span>
+        </div>
+        <p class="price-desc" data-ru="Лендинг под ключ — быстро, стильно, с анимациями." data-en="Turnkey landing page — fast, stylish, with animations.">Лендинг под ключ — быстро, стильно, с анимациями.</p>
+        <ul class="price-features">
+          <li class="included" data-ru="1 страница (лендинг)" data-en="1 page (landing)">1 страница (лендинг)</li>
+          <li class="included" data-ru="Адаптивный дизайн" data-en="Responsive design">Адаптивный дизайн</li>
+          <li class="included" data-ru="Scroll-анимации" data-en="Scroll animations">Scroll-анимации</li>
+          <li class="included" data-ru="Форма/кнопка в TG" data-en="Form/button to TG">Форма/кнопка в TG</li>
+          <li class="included" data-ru="SEO-разметка" data-en="SEO markup">SEO-разметка</li>
+          <li class="excluded" data-ru="Страница блога/каталога" data-en="Blog/catalog page">Страница блога/каталога</li>
+          <li class="excluded" data-ru="Сложные анимации" data-en="Complex animations">Сложные анимации</li>
+          <li class="excluded" data-ru="Page transitions" data-en="Page transitions">Page transitions</li>
+        </ul>
+        <a href="https://t.me/freshcarrot1?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%20%C2%AB%D0%A1%D1%82%D0%B0%D1%80%D1%82%C2%BB%20%E2%80%94%204%C2%A0900%E2%82%BD.%20%D0%9C%D0%BD%D0%B5%20%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D0%BB%D0%B5%D0%BD%D0%B4%D0%B8%D0%BD%D0%B3." class="btn btn-outline price-btn" target="_blank" rel="noopener">
+          <span data-ru="Выбрать тариф" data-en="Choose plan">Выбрать тариф</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+
+      <!-- PRO -->
+      <div class="price-card price-featured reveal-up" style="--delay:0.1s">
+        <div class="price-popular" data-ru="Самый популярный" data-en="Most popular">Самый популярный</div>
+        <div class="price-label" data-ru="Про" data-en="Pro">Про</div>
+        <div class="price-amount">
+          <span class="price-cur">₽</span>
+          <span class="price-num">7 900</span>
+        </div>
+        <p class="price-desc" data-ru="Полноценный многостраничный сайт с анимациями и уникальным дизайном." data-en="Full multi-page website with animations and unique design.">Полноценный многостраничный сайт с анимациями и уникальным дизайном.</p>
+        <ul class="price-features">
+          <li class="included" data-ru="До 4 страниц" data-en="Up to 4 pages">До 4 страниц</li>
+          <li class="included" data-ru="Уникальный дизайн" data-en="Unique design">Уникальный дизайн</li>
+          <li class="included" data-ru="Page transitions" data-en="Page transitions">Page transitions</li>
+          <li class="included" data-ru="Параллакс-эффекты" data-en="Parallax effects">Параллакс-эффекты</li>
+          <li class="included" data-ru="Адаптив + SEO" data-en="Responsive + SEO">Адаптив + SEO</li>
+          <li class="included" data-ru="Интеграция с TG" data-en="TG integration">Интеграция с TG</li>
+          <li class="excluded" data-ru="Более 4 страниц" data-en="More than 4 pages">Более 4 страниц</li>
+          <li class="excluded" data-ru="3D/WebGL элементы" data-en="3D/WebGL elements">3D/WebGL элементы</li>
+        </ul>
+        <a href="https://t.me/freshcarrot1?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%20%C2%AB%D0%9F%D1%80%D0%BE%C2%BB%20%E2%80%94%207%C2%A0900%E2%82%BD.%20%D0%9C%D0%BD%D0%B5%20%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82." class="btn btn-primary price-btn" target="_blank" rel="noopener">
+          <span data-ru="Выбрать тариф" data-en="Choose plan">Выбрать тариф</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+
+      <!-- MAX -->
+      <div class="price-card reveal-up" style="--delay:0.2s">
+        <div class="price-label" data-ru="Максимум" data-en="Maximum">Максимум</div>
+        <div class="price-amount">
+          <span class="price-cur">₽</span>
+          <span class="price-num">12 000</span>
+        </div>
+        <p class="price-desc" data-ru="Сложный многостраничный проект с 3D, кастомными анимациями и нестандартными решениями." data-en="Complex multi-page project with 3D, custom animations and non-standard solutions.">Сложный многостраничный проект с 3D, кастомными анимациями и нестандартными решениями.</p>
+        <ul class="price-features">
+          <li class="included" data-ru="До 10 страниц" data-en="Up to 10 pages">До 10 страниц</li>
+          <li class="included" data-ru="3D / WebGL элементы" data-en="3D / WebGL elements">3D / WebGL элементы</li>
+          <li class="included" data-ru="Кастомные анимации" data-en="Custom animations">Кастомные анимации</li>
+          <li class="included" data-ru="Интерактивные контролы" data-en="Interactive controls">Интерактивные контролы</li>
+          <li class="included" data-ru="Page transitions" data-en="Page transitions">Page transitions</li>
+          <li class="included" data-ru="Нестандартный лэйаут" data-en="Non-standard layout">Нестандартный лэйаут</li>
+          <li class="included" data-ru="Адаптив + SEO" data-en="Responsive + SEO">Адаптив + SEO</li>
+          <li class="included" data-ru="Приоритетная поддержка" data-en="Priority support">Приоритетная поддержка</li>
+        </ul>
+        <a href="https://t.me/freshcarrot1?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%20%C2%AB%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D1%83%D0%BC%C2%BB%20%E2%80%94%2012%C2%A0000%E2%82%BD.%20%D0%9C%D0%BD%D0%B5%20%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82." class="btn btn-outline price-btn" target="_blank" rel="noopener">
+          <span data-ru="Выбрать тариф" data-en="Choose plan">Выбрать тариф</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="pricing-note reveal-up">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.2"/><path d="M8 7v5M8 5v1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      <span data-ru="Финальная цена обсуждается после брифа. Это ориентировочные тарифы." data-en="Final price is discussed after briefing. These are approximate rates.">Финальная цена обсуждается после брифа. Это ориентировочные тарифы.</span>
+    </div>
+  </div>
+</section>
+
+<!-- BOTS SECTION -->
+<section class="bots" id="bots">
+  <div class="section-inner">
+    <div class="bots-inner">
+      <div class="bots-text reveal-up">
+        <span class="section-tag" data-ru="отдельная услуга" data-en="separate service">отдельная услуга</span>
+        <h2 class="section-title" data-ru="Telegram-боты" data-en="Telegram bots">Telegram-боты</h2>
+        <p data-ru="Боты — это отдельное направление. В отличие от сайтов, бот ставится на сервер и работает 24/7. Я беру на себя деплой и техническую поддержку." data-en="Bots are a separate service. Unlike websites, a bot runs on a server 24/7. I handle deployment and technical support.">Боты — это отдельное направление. В отличие от сайтов, бот ставится на сервер и работает 24/7. Я беру на себя деплой и техническую поддержку.</p>
+
+        <div class="bot-features-grid">
+          <div class="bot-feat">
+            <span class="bot-feat-icon">🤖</span>
+            <span data-ru="Любая логика" data-en="Any logic">Любая логика</span>
+          </div>
+          <div class="bot-feat">
+            <span class="bot-feat-icon">💾</span>
+            <span data-ru="База данных" data-en="Database">База данных</span>
+          </div>
+          <div class="bot-feat">
+            <span class="bot-feat-icon">🚀</span>
+            <span data-ru="Деплой включён" data-en="Deploy included">Деплой включён</span>
+          </div>
+          <div class="bot-feat">
+            <span class="bot-feat-icon">🔔</span>
+            <span data-ru="Уведомления" data-en="Notifications">Уведомления</span>
+          </div>
+          <div class="bot-feat">
+            <span class="bot-feat-icon">💳</span>
+            <span data-ru="Оплата в боте" data-en="In-bot payments">Оплата в боте</span>
+          </div>
+          <div class="bot-feat">
+            <span class="bot-feat-icon">📊</span>
+            <span data-ru="Аналитика" data-en="Analytics">Аналитика</span>
+          </div>
+        </div>
+
+        <a href="https://t.me/freshcarrot1?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20Telegram-%D0%B1%D0%BE%D1%82%D0%B0.%20%D0%9C%D0%BE%D0%B3%D1%83%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5%3F" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top:2rem">
+          <span data-ru="Обсудить бота" data-en="Discuss a bot">Обсудить бота</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+
+      <div class="bots-visual reveal-up" style="--delay:0.15s">
+        <div class="bot-mockup">
+          <div class="bot-header">
+            <div class="bot-avatar">FC</div>
+            <div class="bot-info">
+              <span class="bot-name">FC Bot</span>
+              <span class="bot-status" data-ru="в сети" data-en="online">в сети</span>
+            </div>
+          </div>
+          <div class="bot-messages">
+            <div class="bot-msg bot-msg-in">
+              <span data-ru="Привет! Хочу узнать о ваших услугах." data-en="Hi! I'd like to know about your services.">Привет! Хочу узнать о ваших услугах.</span>
+            </div>
+            <div class="bot-msg bot-msg-out" style="animation-delay:0.5s">
+              <span data-ru="Добро пожаловать! Выберите нужное:" data-en="Welcome! Choose what you need:">Добро пожаловать! Выберите нужное:</span>
+            </div>
+            <div class="bot-buttons">
+              <button class="bot-btn-mock" data-ru="🌐 Сайт" data-en="🌐 Website">🌐 Сайт</button>
+              <button class="bot-btn-mock" data-ru="🤖 Бот" data-en="🤖 Bot">🤖 Бот</button>
+            </div>
+            <div class="bot-msg bot-msg-in" style="animation-delay:1.2s">
+              <span data-ru="🌐 Сайт" data-en="🌐 Website">🌐 Сайт</span>
+            </div>
+            <div class="bot-msg bot-msg-out" style="animation-delay:1.8s">
+              <span data-ru="Отлично! Расскажите о вашем проекте 🚀" data-en="Great! Tell me about your project 🚀">Отлично! Расскажите о вашем проекте 🚀</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process">
+  <div class="section-inner">
+    <div class="section-header reveal-up">
+      <span class="section-tag" data-ru="как это работает" data-en="how it works">как это работает</span>
+      <h2 class="section-title" data-ru="Процесс работы" data-en="Work process">Процесс работы</h2>
+    </div>
+
+    <div class="process-steps">
+      <div class="process-step reveal-up" style="--delay:0s">
+        <div class="step-num">01</div>
+        <div class="step-content">
+          <h3 data-ru="Бриф" data-en="Brief">Бриф</h3>
+          <p data-ru="Обсуждаем задачу в Telegram. Я задаю вопросы, вы отвечаете — 15-20 минут." data-en="We discuss the task in Telegram. I ask questions, you answer — 15-20 minutes.">Обсуждаем задачу в Telegram. Я задаю вопросы, вы отвечаете — 15-20 минут.</p>
+        </div>
+      </div>
+      <div class="process-line"></div>
+      <div class="process-step reveal-up" style="--delay:0.1s">
+        <div class="step-num">02</div>
+        <div class="step-content">
+          <h3 data-ru="Дизайн" data-en="Design">Дизайн</h3>
+          <p data-ru="Создаю концепцию и показываю скелет сайта. Правки до утверждения." data-en="I create a concept and show the skeleton. Revisions until approval.">Создаю концепцию и показываю скелет сайта. Правки до утверждения.</p>
+        </div>
+      </div>
+      <div class="process-line"></div>
+      <div class="process-step reveal-up" style="--delay:0.2s">
+        <div class="step-num">03</div>
+        <div class="step-content">
+          <h3 data-ru="Разработка" data-en="Development">Разработка</h3>
+          <p data-ru="Пишу код, добавляю анимации, тестирую на всех устройствах." data-en="I write code, add animations, test on all devices.">Пишу код, добавляю анимации, тестирую на всех устройствах.</p>
+        </div>
+      </div>
+      <div class="process-line"></div>
+      <div class="process-step reveal-up" style="--delay:0.3s">
+        <div class="step-num">04</div>
+        <div class="step-content">
+          <h3 data-ru="Сдача" data-en="Delivery">Сдача</h3>
+          <p data-ru="Отдаю ZIP-архив с готовым кодом или помогаю загрузить на ваш хостинг." data-en="I hand over a ZIP archive with ready code or help upload to your hosting.">Отдаю ZIP-архив с готовым кодом или помогаю загрузить на ваш хостинг.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA / CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="contact-inner reveal-up">
+      <div class="contact-decor"></div>
+      <span class="section-tag" data-ru="начать проект" data-en="start a project">начать проект</span>
+      <h2 data-ru="Готовы обсудить?" data-en="Ready to discuss?">Готовы обсудить?</h2>
+      <p data-ru="Напишите в Telegram — отвечу в течение часа и задам несколько вопросов про ваш проект." data-en="Write in Telegram — I'll reply within an hour and ask a few questions about your project.">Напишите в Telegram — отвечу в течение часа и задам несколько вопросов про ваш проект.</p>
+      <a href="https://t.me/freshcarrot1" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M18.3 2.1L1.7 8.5c-1.1.4-1.1 1.1-.2 1.4l4.1 1.3 9.5-6c.4-.3.9-.1.5.2L7.4 13.2l-.3 4.3c.4 0 .6-.2.8-.4l1.9-1.8 4 3c.7.4 1.2.2 1.4-.7l2.5-12.2c.3-1.1-.4-1.6-1.4-1.3z" fill="currentColor"/></svg>
+        <span data-ru="Написать @freshcarrot1" data-en="Message @freshcarrot1">Написать @freshcarrot1</span>
+      </a>
+      <div class="contact-note" data-ru="Обычно отвечаю за 1 час · Работаю с 10:00 до 22:00 МСК" data-en="Usually reply within 1 hour · Working hours 10:00–22:00 MSK">Обычно отвечаю за 1 час · Работаю с 10:00 до 22:00 МСК</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <span class="logo-fc">FC</span><span class="logo-studio">studio</span>
+    </div>
+    <div class="footer-links">
+      <a href="https://t.me/freshcarrot1" target="_blank" rel="noopener">Telegram</a>
+      <a href="#pricing" data-ru="Тарифы" data-en="Pricing">Тарифы</a>
+      <a href="#bots" data-ru="Боты" data-en="Bots">Боты</a>
+    </div>
+    <div class="footer-copy">
+      <span>© 2025 FC Studio.</span>
+      <span data-ru="Статичные сайты и боты." data-en="Static websites and bots.">Статичные сайты и боты.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/themes.js"></script>
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>
